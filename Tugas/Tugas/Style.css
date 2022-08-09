@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+  }
+  /* body background */
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: hwb(216 95% 4%);
+  }
+  
+  /* Header/Blog Title */
+  .header { 
+    padding: 20px;
+    text-align: center;
+    background: rgb(4, 14, 119);
+    }
+  
+  .header h1 {
+    font-size: 50px;
+    color:rgb(243, 250, 250)
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%; 
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa; 
+    width: 100%;
+    padding:0px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 0px;
+    margin-top:0px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center; 
+    background: rgb(4, 14, 119);
+    margin-top: 20px;
+    color:white;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container {
+    position: relative;
+    width: 20%;
+  }
+  
+  .container:hover .image {
+    opacity: 0.5;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .imageku {
+    opacity: 1;
+    display: block;
+    width: 390px;
+    height: 390px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .text { 
+    height:100%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 50px; 
+  
+  }
+  
+  /*Gambar kartu*/
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    
+    }
+    div.gallery {
+        border: 1px solid #ccc;
+        }
+        div.gallery:hover {
+        border: 1px solid #777;
+        }
+        div.gallery img {
+        width: 80%;
+        height: auto;
+        
+        }
+        div.desc {
+        padding: 15px;
+        text-align: center;
+        }
+        @media only screen and (max-width: 700px) {
+            .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+            }
+            }
+            @media only screen and (max-width: 500px) {
+            .responsive {
+            width: 100%;
+            }
+            }
+            .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+            }

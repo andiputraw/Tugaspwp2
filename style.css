@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Judul{
+    padding : 10px;
+    background-color: rgba(50, 50, 249, 0.842);
+    text-align: center;
+    
+
+}
+.Nav{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color: rgb(64, 64, 64);
+color: aliceblue;
+
+
+}
+li {
+    float: left;
+    display: block;
+    padding: 0px 0px;
+    
+}
+li :hover{
+    background-color: white;
+}
+.Login{
+    float: right;
+    margin-right : 10px;
+}
+.banner{
+    width: 75%;
+    height: 75%;
+}
+.kanan{
+    position: relative;
+    width: 50%;
+}
+.pokit{
+    position: absolute;
+    width:"200%";
+    height:"150%";
+}
+.ttg{
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 50%;
+    margin: 20px;
+    border-radius:5px ;
+    float : left;
+}
+.pdb{
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 75%;
+    margin: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding : 14px 16px;
+    display: block;
+    background-color: rgb(54, 54, 54)
+    
+}
+a:hover{
+    color: rgba(130, 130, 130, 0.500);
+    
+}
+
+h1{
+    font-family: Calibri;
+    color : white;
+    font-size: 40px;
+    margin : 10px;
+}
+
+.alamat{
+    margin : 25px;
+    color: white;
+}
+body{
+    background-color: #eaeaea;
+}
+.Copyright{
+    position: bottom;
+    background-color: rgb(50, 50, 255);
+    text-align: center;
+    margin:0px;
+    padding: 10px;
+    color: white;
+}
+.responsive {
+    float : right;
+    
+
+    width: 35%;
+    }
+    .Gallery{
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+    .Desc{
+        padding : 15px;
+        text-align: center;
+    }
+    .Gallery img {
+        width:100%;
+        height: 100%;
+    }
+
+    .video{
+        float : right;
+    }
